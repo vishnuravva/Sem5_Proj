@@ -1,0 +1,7 @@
+@media screen and (max-width:482px){
+    .recommendedComponent{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

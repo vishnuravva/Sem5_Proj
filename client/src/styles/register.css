@@ -1,0 +1,10 @@
+.registerInput:focus{
+    outline: none;
+    border: none;
+}
+.loginLink:hover{
+    color: red;
+}
+.registerPage{
+    min-height: calc(90vh - (96px - 55px));
+}

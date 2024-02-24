@@ -1,0 +1,52 @@
+.contactUs {
+    /* background: #ccc; */
+    background: linear-gradient(50deg,#000 35%,#282c34 65%);
+}
+.formDiv{
+    /* background: #eee; */
+    background: linear-gradient(200deg,#000 35%,#282c34 65%);
+}
+.formFields .contactUsSelect:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.formFields input{
+    color:#000;
+}
+.formFields input:focus {
+    border: 3px solid royalblue;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.formFields textarea:focus {
+    border: 2px solid royalblue;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.submitBtn {
+    background: rgb(65, 105, 225);
+}
+
+.resetBtn {
+    background: red;
+}
+
+.submitBtn:hover,
+.resetBtn:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.privacyNoteDiv a {
+    color: blue;
+}
+
+.privacyNoteDiv a:hover {
+    color: red;
+}
+
+.contacts {
+    /* background: linear-gradient(45deg,#eee,#fff,#ccc); */
+    /* background: #282c34; */
+    background: linear-gradient(-195deg,#000 35%,#282c34 65%);
+}
+

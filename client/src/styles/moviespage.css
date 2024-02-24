@@ -1,0 +1,13 @@
+.moviesFilterPage {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    background: linear-gradient(150deg,#000 35%,#282c34 65%);
+}
+
+.moviesFilterPage2, .moviesFilterPage1
+{
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.5);
+    background: linear-gradient(150deg,#000 35%,#282c34 65%);
+}

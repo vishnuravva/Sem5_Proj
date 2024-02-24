@@ -1,0 +1,42 @@
+/* SeatGrid.css */
+
+.seat-grid {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+  
+  .seat-row {
+    display: flex;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30x;
+    border: 1px solid #ccc;
+    background: #000;
+    color: #fff;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .seatsPage{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    place-items: center;
+    gap: 1rem;
+  }
+  input,select{
+    padding: 1rem;
+    border: none;
+    width: 400px;
+    border-radius: 10px;
+  }
+  input:focus{
+    outline: none;
+  }
+  input[type="date"], select{
+    width: 195px;
+  }

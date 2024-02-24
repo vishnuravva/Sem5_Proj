@@ -1,0 +1,20 @@
+.mini-nav {
+    border-bottom: 2px solid #eee;
+}
+
+.links:hover {
+    color: rgb(255, 7, 7);
+    transform: scale(1.1);
+    transition: transform .3s ease;
+    font-weight: 900;
+}
+
+  @media screen and (max-width:530px){
+    .mini-nav-main{
+      flex-direction: column;
+      align-items: center;
+    }
+    .mini-nav-main a{
+      margin-bottom: 1rem;
+    }
+}

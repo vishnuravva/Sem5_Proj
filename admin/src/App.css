@@ -1,0 +1,197 @@
+.App {
+  background: #000000e2;
+  min-height: 100vh;
+}
+.movies-addmovies{
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: .5rem;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.25rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.ul {
+  padding: 1rem;
+}
+
+/* Movies page */
+.moviesPage {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.addMovies {
+  padding: 1rem;
+  background: #ccc;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  padding: 1rem;
+  background: #ccc;
+  outline: none;
+}
+
+.col {
+  flex-direction: column;
+}
+
+/* Users Page */
+.users{
+  width: 100%;
+  min-height: 100vh;
+}
+.manage-users {
+  padding: 1rem;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2rem;
+}
+
+/* Style for the table */
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+/* Style for table headers */
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Style for alternating row background colors */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for table data cells */
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  color: #fff;
+}
+
+/* Users Dashboard*/
+.main-dashboard{
+  position: relative;
+  /* min-height: 100vh; */
+}
+
+.users-dashb,
+.movies-dashb,
+.theatres-dashb
+{
+  background: #000000;
+  color: #fff;
+  min-width:300px;
+  max-height: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.movie_list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.list_cards{
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cards{
+  width: 250px;
+  height: 300px;
+  padding: 1rem;
+}
+.cards_img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.movieslist-addmovie{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.logout{
+  color: #fff;
+}
+.logout:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  color: red;
+}
+/* Theatres List */
+.theatre{
+  width: 400px;
+  min-height: 300px;
+  background: #00000081;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.img-theatre{
+  width: 100%;
+  height: 60%;
+}
+.img-theatre img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.details{
+  padding: 1rem;
+}
+span{
+  color: #fff;
+}
+.theatres-list{
+  margin: 2rem;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+.theatre-details{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

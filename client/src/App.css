@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Roboto:ital,wght@0,500;1,400&family=Rubik:ital,wght@0,500;1,400;1,500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #282c34;
+
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width:545px) {
+
+  .movies-links,
+  .ott-links,
+  .buzz-links,
+  .offers-links,
+  .help-links,
+  .settings-links,
+  .mytickets-links {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width:365px) {
+
+  .movies-links,
+  .ott-links,
+  .buzz-links,
+  .offers-links,
+  .help-links,
+  .settings-links,
+  .mytickets-links {
+    font-size: .6rem;
+  }
+}
